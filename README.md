@@ -1,3 +1,11 @@
-Sport News App (News API, Glide, Retrofit)
+# Sports News App (News API, Glide, Retrofit, PrettyTime)
 
-https://www.ghacks.net/wp-content/uploads/2017/12/chrome-black-screen.png
+Sports News Application with features of searching news by keyword and sharing.
+
+<img src="https://i.imgur.com/U6Br5Jx.jpg">
+
+Third Party License:
+https://newsapi.org
+https://square.github.io/retrofit
+https://bumptech.github.io/glide
+http://www.ocpsoft.org/prettytime
