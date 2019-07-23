@@ -1,4 +1,4 @@
-# Sports News App (News API, Glide, Retrofit, PrettyTime)
+# Sports News App (Java, News API, Glide, Retrofit, PrettyTime)
 
 Sports News Application with features of searching news by keyword and sharing.
 
