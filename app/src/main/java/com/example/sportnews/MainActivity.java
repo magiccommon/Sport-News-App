@@ -36,12 +36,11 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener{
 
-    public static final String API_KEY = "4555b5ca1e5a4c9dad4b37f4cd8e24b0";
+    public static final String API_KEY = "57b0aa96d0cd453f9d3dce6cb9c05509";
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     private List<Article> articles = new ArrayList<>();
     private Adapter adapter;
-    private String TAG = MainActivity.class.getSimpleName();
     private TextView topHeadline;
     private SwipeRefreshLayout swipeRefreshLayout;
     private RelativeLayout errorLayout;
@@ -150,7 +149,6 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
     }
 
-
     private void initListener(){
 
         adapter.setOnItemClickListener(new Adapter.OnItemClickListener() {
@@ -180,7 +178,6 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         });
 
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

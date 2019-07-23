@@ -66,7 +66,6 @@ public class NewsDetailActivity extends AppCompatActivity implements AppBarLayou
         mAuthor = intent.getStringExtra("author");
 
         RequestOptions requestOptions = new RequestOptions();
-        requestOptions.error(Utils.getRandomDrawableColor());
 
         Glide.with(this)
                 .load(mImg)
