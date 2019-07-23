@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         errorTitle = findViewById(R.id.errorTitle);
         errorMessage = findViewById(R.id.errorMessage);
         errorButton = findViewById(R.id.errorButton);
-
     }
 
     public void LoadJson(final String keyword){
